@@ -76,7 +76,7 @@ catkin_make
 Source the workspace in .bashrc
 > ```
 > cd
-> echo "source vichesta_ws/devel/setup.bash"
+> echo "source vichesta_ws/devel/setup.bash" >> ~/.bashrc
 >  ```
 
 Add models to be used in gazebo simulation in .gazebo/models
