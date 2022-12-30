@@ -91,7 +91,7 @@ roslaunch vichesta_22 vichesta_task.launch
 ```
 
 ##### For Starting and Stopping Conveyor use the following commands:
-> start Red
+> Start Red
 > ```
 > rosservice call /red_conveyor/conveyor/control "power: 100.0"
 > ```
