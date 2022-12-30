@@ -56,10 +56,7 @@ sudo apt install ros-noetic-moveit*
 
 #### ROS Package on which our workspace depend:
 ```
-sudo apt install ros-noetic-joint*
-sudo apt install ros-noetic-controller*
-ros-noetic-rqt-controller-manager
-ros-noetic-rqt-joint-trajectory-controller
+sudo apt install ros-noetic-joint* ros-noetic-controller* ros-noetic-rqt-controller-manager ros-noetic-rqt-joint-trajectory-controller
 ```
 
 #### Event Package
