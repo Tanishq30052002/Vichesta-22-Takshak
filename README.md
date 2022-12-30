@@ -82,7 +82,7 @@ Source the workspace in .bashrc
 Add models to be used in gazebo simulation in .gazebo/models
 ```
 roscd vichesta_22/models
-cp . ~/.gazebo/models
+cp -R ./* ~/.gazebo/models/
 ```
 
 #### Run the launch file to open up the enviroment.
